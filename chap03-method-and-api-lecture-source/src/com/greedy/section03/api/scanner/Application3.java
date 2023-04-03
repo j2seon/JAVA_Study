@@ -21,7 +21,7 @@ public class Application3 {
  		String str1 = sc.next();
  		System.out.println("str1 : "+str1);
 		
- 		sc.nextLine();
+ 		sc.next();
  		
  		System.out.print("숫자를 입력해주세요 : ");
  		int num1 = sc.nextInt();
