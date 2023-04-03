@@ -26,7 +26,10 @@ public class Application3 {
 		 * */
 		
 		Application3 application3 = new Application3();
-		application3.testMethod(12); // 초기화한 것
+		application3.testMethod(12); // 초기화한 것 -> 전달인자
+		
+		
+		
 		
 //		application3.testMethod("20"); //매개변수는 int형이지만 인자가 String형이기 때문에 호출할 수 있다.
 		
@@ -51,10 +54,10 @@ public class Application3 {
 		application3.testMethod((int)longAge);
 	
 		/* 연산결과를 이용해서 값을 전달할 수 있다. */
-		application3.testMethod(age * 3);
+		application3.testMethod(age * 3); // -> 전달인자
 	}
 	
-	public void testMethod(int age) { //여기서 선언된것
+	public void testMethod(int age) { //여기서 선언된것 - > 매개변수
 		
 		System.out.printf("당신의 나이는 %d세 입니다\n", age);
 	}
