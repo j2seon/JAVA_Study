@@ -13,6 +13,11 @@ public class Application1 {
 		C_ifElseIf c_ifElseIf = new C_ifElseIf();
 //		c_ifElseIf.testSimpleIfElseIfStatement();
 		
-		c_ifElseIf.testNesedIfElseIfStatement();
+//		c_ifElseIf.testNesedIfElseIfStatement();
+		
+		D_switch d_switch = new D_switch();
+		
+//		d_switch.testSimpleSwitchStatement();
+		d_switch.testSwitchVendingMachine();
 	}
 }
