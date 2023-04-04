@@ -9,8 +9,8 @@ public class Application {
 //		a.testSimpleForStatement();
 //		a.printSimpleGugudan();
 		
-//		A_nestedFor a_nestedFor = new A_nestedFor();
-//		a_nestedFor.printStarInputRowTimes();
+		A_nestedFor a_nestedFor = new A_nestedFor();
+		a_nestedFor.printStarInputRowTimes();
 //		
 		B_while b_while = new B_while();
 //		b_while.testSimpleWhileStatement();
