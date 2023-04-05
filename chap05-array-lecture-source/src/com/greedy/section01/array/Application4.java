@@ -2,7 +2,7 @@ package com.greedy.section01.array;
 
 import java.util.Scanner;
 
-public class Applicaiton4 {
+public class Application4 {
 
 	public static void main(String[] args) {
 		
