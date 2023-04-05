@@ -31,4 +31,51 @@ public class A_break {
 	}
 	
 	
+	public void testSimpleBreakStatement2() {
+		
+		/* 중첩반복문 내에서 분기문의 흐름
+		 * 구구단 2 ~ 9단까지 출력
+		 * 단, 각단의 수가 5보다 큰경우는 출력 생략한다.
+		 * 
+		 * */
+		
+		for (int i = 2; i < 10; i++) {
+			System.out.printf("=============%d============\n", i);
+			
+			for (int j = 1; j < 10; j++) {
+				if(j > 5) {
+					break; // 가장 가까운 반복문을 나간다. 현재 반복문을 나간다.
+					//return은 메서드를 종료하고 나간다.
+				}
+				
+				System.out.printf("%d * %d = %d\n", i, j, (i*j));
+			}
+			
+		}
+		
+	}
+	
+	/**
+	 * <pre>
+	 * break문 실행 흐름을 확인
+	 * 중첩 반복문 내에서 분기문(break)을 이용하여 한번에 여러 반복문 중지시키기
+	 * </pre>
+	 */
+	public void testJumpBreak() {
+		
+		Outer: // 라벨이용
+		for (;;) { // 무한 반복 for문
+			
+			for (int i = 0; i < 10; i++) {
+				
+				System.out.println(i);
+				if(i==3) {
+					break Outer;
+				}
+			}
+		}
+	}
+	
+	
+	
 }
