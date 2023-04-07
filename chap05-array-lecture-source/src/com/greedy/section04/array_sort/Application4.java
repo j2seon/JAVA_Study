@@ -28,6 +28,5 @@ public class Application4 {
 			}
 		}
 		System.out.println(Arrays.toString(iarr));
-		
 	}
 }
