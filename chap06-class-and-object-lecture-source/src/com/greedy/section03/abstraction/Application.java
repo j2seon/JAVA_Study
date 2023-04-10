@@ -1,16 +1,14 @@
 package com.greedy.section03.abstraction;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.PriorityQueue;
-import java.util.Queue;
+
 import java.util.Scanner;
-import java.util.concurrent.ConcurrentHashMap;
+
 
 public class Application {
 	
 	public static void main(String[] args) {
-		
+
+	
 		/* 객체지향 프로그래밍이란 
 		 * 현실세계의 모든 사건은 객체와 객체의 상호작용에 의해 일어난다는 세계관을 
 		 * 프로그램을 만들때 이용하여 새로운 세계를 창조하는 방법론이다.
