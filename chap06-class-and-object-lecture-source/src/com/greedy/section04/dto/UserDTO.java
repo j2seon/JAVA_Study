@@ -37,6 +37,7 @@ public class UserDTO {
 	
 	/* 매개변수 있는 생성자(상황에 따라 선택사항으로 생성) */
 	public UserDTO(String id, String pwd, String name, Date enrollDate) {
+	
 		this.id = id;
 		this.pwd = pwd;
 		this.name = name;

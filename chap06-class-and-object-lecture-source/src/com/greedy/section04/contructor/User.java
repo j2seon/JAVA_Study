@@ -1,5 +1,6 @@
 package com.greedy.section04.contructor;
 
+import java.util.Arrays;
 import java.util.Date;
 
 public class User {
@@ -29,6 +30,7 @@ public class User {
 	 * */
 	
 	public User() {
+		
 		System.out.println("User 클래스의 기본 생성자 호출함...");	
 	}
 
@@ -43,6 +45,7 @@ public class User {
 		this.id = id;
 		this.pwd = pwd;
 		this.name = name;
+		
 		System.out.println("User 클래스의 id, pwd, name을 초기화하는 생성자 호출함..");
 	}
 
@@ -72,10 +75,9 @@ public class User {
 		System.out.println("User 클래스의 복사 생성자 호출함.");
 		System.out.println("this의 hashcode = "+ this.hashCode());
 		System.out.println("other의 hashcode = "+ otherUser.hashCode());
-	}
-	
-	
+	}	
 
+	
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", pwd=" + pwd + ", name=" + name + ", enrollDate=" + enrollDate + "]";
