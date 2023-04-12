@@ -41,7 +41,7 @@ public class Car {
 	 * </pre>
 	 * @return true이면 주행 중인 상태이며, false이면 멈춘 상태이다.
 	 */
-	private boolean isRunning() {
+	protected boolean isRunning() {
 		return runningStatus;
 	}
 	
