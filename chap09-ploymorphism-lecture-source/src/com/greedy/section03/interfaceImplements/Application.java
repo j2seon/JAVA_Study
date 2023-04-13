@@ -1,5 +1,8 @@
 package com.greedy.section03.interfaceImplements;
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class Application {
 
 	public static void main(String[] args) {
@@ -33,7 +36,6 @@ public class Application {
 		
 		System.out.println(InterProduct.MAX_NUM);
 		System.out.println(InterProduct.MIN_NUM);
-		
 		
 	}
 
