@@ -1,4 +1,4 @@
-package com.jjs.test;
+package com.jjs.test.functionals;
 
 
 import java.util.Arrays;
@@ -46,6 +46,7 @@ public class App {
 		DefaultFoo foo = new DefaultFoo("java");
 		foo.printName();
 		foo.printNameUpperCase();
+		
 		
 	}
 }

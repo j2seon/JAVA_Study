@@ -1,5 +1,8 @@
 package com.greedy.section01.object.run;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import com.greedy.section01.object.book.vo.BookVO;
 
 public class Application1 {
@@ -16,9 +19,15 @@ public class Application1 {
 		BookVO book2 = new BookVO(2,"목민심서", "정약용", 30000);
 		BookVO book3 = new BookVO(2,"목민심서", "정약용", 30000);
 		
+		
+		
+		
+		
 		/* java.lang.Object 클래스의 toString()메소드의 기능
 		 * 인스턴스가 생성될 때 사용한 full class name + @ + 16진수 해쉬코드가 반환
 		 * */
+		
+		System.out.println(book2.equals(book3));
 		
 		System.out.println("book1.toString() : " + book1.toString());
 		System.out.println("book2.toString() : " + book2.toString());
@@ -28,6 +37,11 @@ public class Application1 {
 		System.out.println("book1 : " + book1);
 		System.out.println("book2 : " + book2);
 		System.out.println("book3 : " + book3);
-		
+	
+		System.out.println();
+		Set<BookVO> bookSet = new HashSet<>();
+		bookSet.add(book2);
+		bookSet.add(book3);
+		bookSet.stream().forEach(System.out::println);
 	}
 }

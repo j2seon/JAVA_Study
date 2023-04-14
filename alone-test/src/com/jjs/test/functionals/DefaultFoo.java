@@ -1,4 +1,4 @@
-package com.jjs.test;
+package com.jjs.test.functionals;
 
 public class DefaultFoo implements Foo{
 
