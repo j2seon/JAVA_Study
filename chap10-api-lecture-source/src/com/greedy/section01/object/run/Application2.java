@@ -24,7 +24,7 @@ public class Application2 {
 		System.out.println("book1.hashCode : " + book1.hashCode());
 		System.out.println("book2.hashCode : " + book2.hashCode());
 		
-		System.out.println("book1==book2 : " + (book1==book2));
+		System.out.println("book1==book2 : " + (book1 == book2));
 		System.out.println("book2.equals(book2) : "+(book2.equals(book2)));
 		
 	}
