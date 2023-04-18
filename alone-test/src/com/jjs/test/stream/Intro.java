@@ -30,7 +30,7 @@ public class Intro {
 		list2.stream().map(s-> {
 			System.out.println(s);
 			return s.toUpperCase();
-		}); // 지금이상태로 출력하면 정의만한 것이라 실행되지 않음.
+		}); // 지금 이 상태로 출력하면 정의만한 것이라 실행되지 않음.
 		
 		System.out.println("=====================");
 		

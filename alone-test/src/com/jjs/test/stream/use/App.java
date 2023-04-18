@@ -51,7 +51,6 @@ public class App {
 		
 		list2.forEach(System.out::println);
 		
-		
 		System.out.println("===== 수업이름만 모아서 스트림만들기 =====");
 		
 		springClasses.stream()
